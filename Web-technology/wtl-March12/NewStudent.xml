@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="student2.xsl"?>
+<students>
+    <student>
+        <id>28</id>
+        <name>Ankit Bhosale</name>
+        <course>Computer Science</course>
+        <email>ankit123@gmail.com</email>
+        <marks>75</marks>
+    </student>
+     <student>
+        <id>33</id>
+        <name>Jyoti Chavan</name>
+        <course>Civil</course>
+        <email>jyoti789@gmail.com</email>
+        <marks>100</marks>
+    </student>
+    <student>
+        <id>30</id>
+        <name>Harsh Parab</name>
+        <course>Electronics</course>
+        <email>harsh789@gmail.com</email>
+        <marks>90</marks>
+    </student>
+    <student>
+        <id>32</id>
+        <name>Vikrant kamble</name>
+        <course>Mechanical Engineering</course>
+        <email>vikrant456@gmail.com</email>
+        <marks>95</marks>
+    </student>
+    <student>
+        <id>49</id>
+        <name>Rohit mali</name>
+        <course>Mechanical Engineering</course>
+        <email>sahil456@gmail.com</email>
+        <marks>58</marks>
+    </student>
+    <student>
+        <id>50</id>
+        <name>Sahil Chougale</name>
+        <course>Mechanical Engineering</course>
+        <email>rohit456@gmail.com</email>
+        <marks>55</marks>
+    </student>
+    <student>
+        <id>08</id>
+        <name>Pranav Davang</name>
+        <course>Mechanical Engineering</course>
+        <email>pra456@gmail.com</email>
+        <marks>99</marks>
+    </student>
+    <student>
+        <id>15</id>
+        <name>Ashish khot</name>
+        <course>Mechanical</course>
+        <email>ashish456@gmail.com</email>
+        <marks>70</marks>
+    </student>
+    <student>
+        <id>03</id>
+        <name>kabir Patil</name>
+        <course>Mechanical Engineering</course>
+        <email>vikrant456@gmail.com</email>
+        <marks>101</marks>
+    </student>
+    <student>
+        <id>26</id>
+        <name>Vaibhav patil</name>
+        <course> CSE</course>
+        <email>viabhav456@gmail.com</email>
+        <marks>35</marks>
+    </student>
+</students>

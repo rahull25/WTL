@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            width: 350px;
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+        label {
+            font-weight: bold;
+            display: block;
+            margin-top: 10px;
+        }
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .gender-group, .language-group {
+            display: flex;
+            gap: 10px;
+        }
+        .buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 15px;
+        }
+        input[type="submit"], input[type="reset"] {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            width: 48%;
+        }
+        input[type="reset"] {
+            background-color: #dc3545;
+        }
+        input[type="submit"]:hover {
+            background-color: #218838;
+        }
+        input[type="reset"]:hover {
+            background-color: #c82333;
+        }
+    </style>
+</head>
+<body>
+    <!-- Name <input name="name" type="text" size="20"/><br/>
+    Roll_No<input name="roll_no" type="number"><br/>
+    Address <input name="address" type="text" size="40"><br/>
+    Email<input name="Email" type="text" size="30"><br/>
+    Gender<input type="radio" name="gender">male</input>
+    <input type="radio" name="gender">female</input><br/>
+    <label for="languages">Select Language : </label>
+    English<input type="checkbox" name="languages" value="English">
+    Marathi<input type="checkbox" name="languages" value="Marathi">
+    Hindi<input type="checkbox" name="languages" value="Hindi"><br/><br/>
+    <label for="Division">Division</label>
+    <select name="Division">
+        <option>A</option>
+        <option>B</option>
+        <option>C</option>
+    </select><br/>
+    <label for="marksheet"> Upload your marksheet</label>
+    <br/>
+    <input type="file" name="Marksheet">
+    <br/>
+    <input type="Submit" name="submit" value="submit">
+    <input type="reset" name="clear" value="clear"> -->
+    <div class="container">
+        <h2>Student Registration</h2>
+        <form action="save.php" method="POST" enctype="multipart/form-data">
+            <label for="name">Name</label>
+            <input name="name" type="text" placeholder="Enter your name" required>
+            
+            <label for="roll_no">Roll No</label>
+            <input name="roll_no" type="number" placeholder="Enter your roll number" required>
+            
+            <label for="address">Address</label>
+            <input name="address" type="text" placeholder="Enter your address">
+            
+            <label for="email">Email</label>
+            <input name="email" type="email" placeholder="Enter your email" required>
+            
+            <label>Gender</label>
+            <div class="gender-group">
+                <input type="radio" name="gender" value="male"> Male
+                <input type="radio" name="gender" value="female"> Female
+            </div>
+            
+            <label>Select Language</label>
+            <div class="language-group">
+                <input type="checkbox" name="languages" value="English"> English
+                <input type="checkbox" name="languages" value="Marathi"> Marathi
+                <input type="checkbox" name="languages" value="Hindi"> Hindi
+            </div>
+            
+            <label for="division">Division</label>
+            <select name="division">
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+            </select>
+            
+            <label for="marksheet">Upload your marksheet</label>
+            <input type="file" name="marksheet">
+            
+            <div class="buttons">
+                <input type="submit" value="Submit">
+                <input type="reset" value="Clear">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

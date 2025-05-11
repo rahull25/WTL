@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mouse Events Example</title>
+  <script>
+    function changeColor() {
+      document.getElementById("text").style.color = "red";
+    }
+
+    function resetColor() {
+      document.getElementById("text").style.color = "black";
+    }
+  </script>
+</head>
+<body>
+
+<h2 id="text" onmouseover="changeColor()" onmouseout="resetColor()">
+  Hover your mouse over this text!
+</h2>
+
+</body>
+</html>

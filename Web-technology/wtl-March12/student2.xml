@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="student2.xsl"?>
+<students>
+    <student>
+        <id>28</id>
+        <name>Ankit Bhosale</name>
+        <course>Computer Science</course>
+        <email>ankit123@gmail.com</email>
+    </student>
+     <student>
+        <id>33</id>
+        <name>Jyoti Chavan</name>
+        <course>Civil</course>
+        <email>jyoti789@gmail.com</email>
+    </student>
+    <student>
+        <id>30</id>
+        <name>Harsh Parab</name>
+        <course>Electronics</course>
+        <email>harsh789@gmail.com</email>
+    </student>
+    <student>
+        <id>32</id>
+        <name>vikrant kamble</name>
+        <course>Mechanical Engineering</course>
+        <email>vikrant456@gmail.com</email>
+    </student>
+</students>

@@ -1,0 +1,48 @@
+employees {
+    font-family: Arial, sans-serif;
+    display: block;
+    text-align: center;
+}
+
+title {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+table {
+    display: table;
+    margin: auto;
+    border-collapse: collapse;
+    width: 60%;
+    border: 2px solid #000;
+}
+
+header {
+    display: table-row;
+    font-weight: bold;
+    background-color: #4CAF50;
+    color: white;
+}
+
+column {
+    display: table-cell;
+    padding: 10px;
+    border: 1px solid #000;
+}
+
+row {
+    display: table-row;
+}
+
+cell {
+    display: table-cell;
+    padding: 10px;
+    border: 1px solid #000;
+    text-align: center;
+}
+
+row:nth-child(even) {
+    background-color: #f2f2f2;
+}

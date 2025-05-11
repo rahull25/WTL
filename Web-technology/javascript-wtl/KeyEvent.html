@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Key Event Example</title>
+  <script>
+    function showKeyDown(event) {
+      document.getElementById("output").innerHTML = "Key Down: " + event.key;
+    }
+
+    function showKeyUp(event) {
+      document.getElementById("output").innerHTML = "Key Up: " + event.key;
+    }
+
+    function showKeyPress(event) {
+      document.getElementById("output").innerHTML = "Key Pressed: " + event.key;
+    }
+  </script>
+</head>
+<body>
+
+<h2>Type something in the input box</h2>
+<input type="text"
+       onkeydown="showKeyDown(event)"
+       onkeyup="showKeyUp(event)"
+       onkeypress="showKeyPress(event)">
+       
+<p id="output"></p>
+
+</body>
+</html>

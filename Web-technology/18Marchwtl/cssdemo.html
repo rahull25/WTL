@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Demo App</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <!-- External CSS -->
+    <style>
+        /* Internal CSS */
+        .internal-style {
+            color: blue;
+            font-size: 20px;
+        }
+        .hover-effect:hover {
+            color: red;
+            transition: color 0.3s;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: green; text-align: center;">CSS Demonstration</h1>
+    
+     <!-- Inline CSS -->
+    
+    <p class="internal-style">This paragraph is styled using internal CSS.</p>
+    
+    <p class="hover-effect">Hover over me to see the effect.</p>
+    
+    <div class="box">This box is styled with external CSS.</div>
+    
+    <button class="btn">Click Me</button>
+</body>
+</html>

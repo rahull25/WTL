@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<employees>
+    <title>Employee Records</title>
+    <table>
+        <header>
+            <column>ID</column>
+            <column>Name</column>
+            <column>Age</column>
+            <column>Department</column>
+            <column>Salary</column>
+        </header>
+        <row>
+            <cell>201</cell>
+            <cell>Ankit Bhosale</cell>
+            <cell>28</cell>
+            <cell>IT</cell>
+            <cell>70000</cell>
+        </row>
+        <row>
+            <cell>202</cell>
+            <cell>Jyoti Chavan</cell>
+            <cell>33</cell>
+            <cell>HR</cell>
+            <cell>80000</cell>
+        </row>
+        <row>
+            <cell>203</cell>
+            <cell>Vikrant kamble</cell>
+            <cell>32</cell>
+            <cell>Finance</cell>
+            <cell>90000</cell>
+        </row>
+    </table>
+</employees>
